@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* background-image:linear-gradient(180deg, rgb(248, 250, 252),rgb(156, 157, 160)) */
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image:linear-gradient(90deg, rgb(248, 250, 252),rgb(76, 104, 148))
+}
+/*  ----------------- Header ----------------------  */
+.header{
+    background-image: linear-gradient(90deg , rgb(156, 157, 160),#c8d1d4);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-size:  24px;
+    letter-spacing: 2px;
+    color:  rgb(30,41,59) ;
+}
+.nav{
+    display: flex;
+    gap: 35px;
+    
+}
+
+.nav a {
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    text-decoration:none
+}
+
+.nav a:hover {
+    color: blueviolet;
+}
+
+/* ----------------------- Section ----------------------------------*/
+.Secction_Global{
+    display: flex;
+    flex-direction: column;
+    row-gap:25px ;
+    /* background-color: rgb(13, 141, 94); */
+    margin-top: 10px; ;
+    
+     padding: 80px 7%;
+}
+/* small title  */
+.small-title{
+    font-weight: 600;
+    color: rgb(17, 132, 255)
+}
+/* h1 */
+.Secction_Global h1 {
+    color: rgb(30,41,59);
+    font-size: 90px;
+}
+/* p */
+.Secction_Global p {
+    /* color: black; */
+    font-size: 20px;
+}
+
+/* btn1 */
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 15, 15);
+    color: rgb(221, 227, 227);
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    /* padding-left: 30px; */
+    /* padding-top: 2px; */
+    border-radius: 20px;
+    text-decoration:none;
+
+}
+.btn1:hover {
+   background-color: blueviolet;
+}
+/* ----------------------------------------------------------- */
+/* --------------- Services Section  ------------------------ */
+.Services-title{ 
+    font-weight: 600;
+    font-size:20px;
+    color: rgb(17, 132, 255);
+     padding: 8px 7%;
+    
+}
+.offer{
+    font-size: 70px;
+    padding: 8px 7% 8px 7%;
+    font-weight: 600;
+    color: rgb(30,41,59);
+    
+}
+
+.P_service{
+    font-weight: 100;
+    font-size: 20px;
+    /* padding-left: 100px;  */
+    padding: 8px 7% 8px 7%;
+}
+/* ------ */
+/* تقسييم الخمات ل فروع  */
+/* app conect  */
+.APP_father{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.App_conect{
+    background-color: #1e293b;
+    color: #c8d1d4;
+    width: 300px;
+    padding:10px ;
+    margin: 8px 7% 8px 7% ;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.App_logo{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    object-fit: contain;
+    gap: 10px;
+}
+.App_conect:hover{
+    /* width: 350px; */
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+.services_title{
+    font-weight: 600;
+}
+.Services_price{
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: rgb(180, 224, 253);
+    border-color: #09ff;
+    border-width:2px;
+    border-style:solid;
+}
+/* Navigation service */
+.Navigation {
+        background-color: #1e293b;
+    color: #c8d1d4;
+    width: 300px;
+    padding:10px ;
+    margin: 8px 7% 8px 7% ;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.Navigation:hover{
+    transform: scale(1.05);
+    border-radius: 10px
+}
+.Nav_logo{
+    width: 40px;
+    fill: #6d8ae8;
+    filter: drop-shadow(0 0 4px rgba(33,150,243,1));
+}
+
+/* Option service */
+.Option{
+    background-color: #1e293b;
+    color: #c8d1d4;
+    width: 300px;
+    padding:10px ;
+    margin: 8px 7% 8px 7% ;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.Option:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+.option_logo{
+    width: 40px;
+    fill: #6d8ae8;
+    filter: drop-shadow(0 0 4px rgba(33,150,243,0.6));
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------- About section ---------------------------------------- */
+.About{
+width:100%;
+height: min-content;
+
+}
+.About_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.background_photo1{
+    /* height: 10%; */
+    width:50% ;
+    margin:0.5% ;
+    border-radius: 3px;
+    float: right;
+    
+}
+
+
+.About_title{
+    font-weight: 600;
+    font-size:20px;
+    color: rgb(17, 132, 255);
+    padding: 8px 7%;
+    gap: 30px;
+}
+
+.About_title2{
+    font-size: 150%;
+    padding: 2px 0%;
+    /* padding: 0px 0px 15px 0px; */
+    font-weight: 800;
+    color: rgb(30,41,59); 
+    /* font-style: oblique; */
+    filter: drop-shadow(0 0 4px rgba(246, 250, 253, 0.6));
+}
+.About_prh{
+    font-size: 20px;
+    font-style: oblique;
+    filter: drop-shadow(0 0 4px rgba(246, 250, 253, 0.6));
+    padding: 8px 7%;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------- Contact section ---------------------------------------- */
+.Contact{
+    padding: 10px 7%;
+    clear: both;
+    background-image: linear-gradient(90deg , #c1cfe1,#288ae676);
+    
+}
+.Contact_div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Contact_title{
+    font-weight: 600;
+    font-size:20px;
+    color: rgb(17, 132, 255);
+    padding: 8px 0px ;
+    
+}
+
+.Contact_title2{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+    filter: drop-shadow(0 0 4px rgba(246, 250, 253, 0.6));
+}
+
+.btn2{
+    color: white;
+    display: flex;
+    padding: 5px 20px;
+    border-width: 0px;
+    background-color: rgb(17, 132, 255) ;
+    border-radius: 17px;
+    align-items:center;
+    align-self: flex-start;
+    justify-content:center;
+    gap: 10px;
+    
+    }
+
+
+.WhatsApp_icon{
+    width: 20px;
+    height: 20px;
+    transform: translateY(1px);
+}
+.link_whatsapp{
+    color: white;
+    /* display: flex; */
+    text-decoration: none;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+.link_whatsapp:hover{
+    color: rgba(82, 235, 82, 0.861);
+}
+/* -------------------------------------------------- */
+/*  Social media links  */
+.Social_media{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+/* Instagram btn  */
+.instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.instagram_icon{
+    width: 25px;
+    height: 25px;
+    
+} 
+.link_instagram{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 0.7s;
+}
+.link_instagram:hover{
+    color: rgb(194, 66, 87);
+    /* height: 150px; */
+    transform: scale(1.15);
+
+}
+
+/* Facebook btn */
+.facebook_icon{
+    width: 25px;
+    height: 25px;
+    /* transform: translateY(7px) */
+}
+.link_facebook{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    
+}
+.link_facebook:hover{
+    color: blue;
+    /* height: 50px; */
+    transform: scale(1.15);
+
+}
+
+/* Tiktok page */
+.Tiktok_icon{
+    width: 25px;
+    height: 25px;
+}
+
+.link_Tiktok{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition-duration: 0.7s;
+}
+
+.link_Tiktok:hover{
+    color: black;
+    /* height: 50px; */
+    transform: scale(1.15);
+}
+
+/* phone */
+.Phone_icon{
+     width: 25px;
+    height: 25px;
+
+}
+
+.link_Phone{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition-duration: 0.7s;
+}
+.link_Phone:hover{
+    color: rgb(83, 199, 83);
+    /* width: 50px; */
+    /* height: 50px; */
+    transform: scale(1.15);
+}
+
+/* -------------------------------------------------- */
+/* ----------- RESPONSIVE FOR MOBILE (الهاتف) -------- */
+/* ------------------------------
+        font-size: 45px;
+    }
+    
+    .offer {
+        font-size: 35px;
+    }
+
+    /* إصلاح صورة قسم الـ About في الهاتف */
+
+@media (max-width: 768px) {
+    
+    /* تصغير الـ padding في الهيدر ليناسب الشاشات الصغيرة وتجنب الخروج للأطراف */
+    .header {
+        padding: 0 3%; 
+    }
+
+    /* تقليل المسافة بين الروابط حتى لا تضغط على العرض */
+    .nav {
+        gap: 10px;
+    }
+
+    /* تصغير حجم خط اللوجو قليلاً إذا كان طويلاً */
+    .logo {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    /* باقي التعديلات الأخرى... */
+    .Secction_Global h1 {
+        font-size: 45px;
+    }
+    
+    .offer {
+        font-size: 35px;
+    }
+
+    .background_photo1 {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Social_media {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* يقطع ويخفي أي عنصر يخرج عن اليمين أو اليسار بشكل قاطع */
+}
